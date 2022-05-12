@@ -1,0 +1,6 @@
+{
+    "tsConfigLocation": "./tsconfig.json", 
+    "typeLocation": "./index.ts", 
+    "sdkLocation": "./output", 
+    "sdkTypeName": "SDK"
+}
