@@ -7,6 +7,7 @@ const { log } = console;
 
 const errorHandler = onError(({ error, path, req, mdlwData }) => {
   console.log(error);
+
   if (error.name === "Internal server error") console.log("Pass error to sentry");
 });
 
